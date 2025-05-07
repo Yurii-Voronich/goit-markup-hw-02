@@ -32,7 +32,7 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.contact-list a {
+.contact-list {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -50,7 +50,7 @@ ul {
 .contact-list:focus {
   color: #404bbf;
 }
-.addres-box {
+address {
   font-style: normal;
 }
 /* title section */
