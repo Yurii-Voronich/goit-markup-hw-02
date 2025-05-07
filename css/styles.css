@@ -11,11 +11,11 @@ ul {
 }
 
 /* header */
-.logo {
+.nav-list .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -39,11 +39,18 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
 }
+.nav-list a:hover,
+.nav-list a:focus {
+  color: #404bbf;
+}
+
 .contact-list a:hover,
 .contact-list a:focus {
   color: #404bbf;
 }
+
 /* title section */
 .first-section {
   background-color: #2e2f42;
@@ -53,7 +60,7 @@ h1 {
   font-weight: 700;
   font-size: 56px;
   letter-spacing: 0.02em;
-  line-height: 1.07143;
+  line-height: 1.07;
   text-align: center;
 }
 .callback {
@@ -67,27 +74,19 @@ h1 {
   border: none;
 }
 .callback:hover,
-.callback:active {
+.callback:focus {
   background-color: #404bbf;
 }
 /* features section */
 
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11111;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-}
-h3 {
+.features-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-p {
+.features-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -97,16 +96,64 @@ p {
 .team-list {
   background-color: #f4f4fd;
 }
+.team-list-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  text-align: center;
+}
+.team-member {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.team-list-box {
+  background-color: #fff;
+}
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* 4th section */
+.portfolio-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.projects-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
 /* footer */
-footer {
+.footer-section {
   background-color: #2e2f42;
 }
-footer p {
+.footer-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+footer .logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 footer .logo .studio {
   color: #f4f4fd;
